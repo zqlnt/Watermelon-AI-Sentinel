@@ -32,8 +32,8 @@ export const DashboardSection = (): JSX.Element => {
         <div className="flex justify-center mb-12 lg:mb-16 z-10 relative">
           <img
             className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20"
-            alt="Email Integration Dashboard"
-            src="https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Organization Dashboard"
+            src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
         </div>
 

@@ -13,8 +13,8 @@ export const TestimonialsSection = (): JSX.Element => {
         <div className="relative flex-shrink-0 order-2 lg:order-1 z-10">
           <img
             className="w-[320px] lg:w-[500px] h-auto object-contain rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/20"
-            alt="Email Management Interface"
-            src="https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Calendar Scheduling Interface"
+            src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
         </div>
 

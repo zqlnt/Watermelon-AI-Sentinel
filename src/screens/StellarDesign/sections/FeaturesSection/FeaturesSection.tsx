@@ -54,7 +54,7 @@ export const FeaturesSection = (): JSX.Element => {
             <img
               className="w-full max-w-[600px] h-auto object-contain rounded-[2rem] shadow-2xl border border-white/20 mx-auto"
               alt="Task Management Dashboard"
-              src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
             />
           </div>
         </div>
