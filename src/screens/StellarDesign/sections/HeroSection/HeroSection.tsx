@@ -123,17 +123,38 @@ export const HeroSection = (): JSX.Element => {
           </Badge>
 
           <div className="space-y-4 lg:space-y-6 animate-fade-up opacity-0" style={{ animationDelay: '0.6s' }}>
-            <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-7xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700">
-              Save time & Organise
-            </h1>
+            <div className="space-y-2 lg:space-y-4">
+              {/* Mobile: Stack each part on separate lines, Desktop: Keep original layout */}
+              <div className="block lg:hidden">
+                <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700 text-center">
+                  Save time &
+                </h1>
+                <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700 text-center mt-2">
+                  Organise better with
+                </h1>
+                <div className="flex justify-center mt-4">
+                  <Badge className="inline-flex items-center justify-center h-[60px] px-6 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 rounded-full shadow-2xl border border-white/30 transform hover:scale-110 hover:shadow-3xl transition-all duration-500 hover:rotate-1">
+                    <span className="text-2xl [font-family:'Inter',Helvetica] font-bold text-white tracking-tight leading-tight">
+                      Sentinel
+                    </span>
+                  </Badge>
+                </div>
+              </div>
 
-            <div className="[font-family:'Inter',Helvetica] font-bold text-4xl lg:text-6xl tracking-tight leading-tight">
-              <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-700 inline-block">better with </span>
-              <Badge className="inline-flex items-center justify-center h-[60px] lg:h-[100px] px-6 lg:px-8 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 rounded-full shadow-2xl border border-white/30 transform hover:scale-110 hover:shadow-3xl transition-all duration-500 hover:rotate-1">
-                <span className="text-2xl lg:text-6xl [font-family:'Inter',Helvetica] font-bold text-white tracking-tight leading-tight">
-                  Sentinel
-                </span>
-              </Badge>
+              {/* Desktop: Original layout */}
+              <div className="hidden lg:block">
+                <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-7xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700">
+                  Save time & Organise
+                </h1>
+                <div className="[font-family:'Inter',Helvetica] font-bold text-6xl tracking-tight leading-tight mt-4">
+                  <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-700 inline-block">better with </span>
+                  <Badge className="inline-flex items-center justify-center h-[100px] px-8 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 rounded-full shadow-2xl border border-white/30 transform hover:scale-110 hover:shadow-3xl transition-all duration-500 hover:rotate-1">
+                    <span className="text-6xl [font-family:'Inter',Helvetica] font-bold text-white tracking-tight leading-tight">
+                      Sentinel
+                    </span>
+                  </Badge>
+                </div>
+              </div>
             </div>
           </div>
 
