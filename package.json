@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "source": "./index.html",
   "type": "module",
-  "name": "sentinel",
-  "description": "Sentinel - Your all-in-one productivity assistant powered by AI",
+  "name": "watermelon-ai-sentinel",
+  "description": "Watermelon AI Sentinel - Your all-in-one productivity assistant",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
