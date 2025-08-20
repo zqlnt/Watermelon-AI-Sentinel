@@ -17,19 +17,19 @@ export const FeaturesSection = (): JSX.Element => {
       
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <div className="space-y-8">
+          <div className="space-y-8 animate-fade-up opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="space-y-6">
               <div className="space-y-4">
-                <div className="[font-family:'Inter',Helvetica] font-semibold text-purple-600 text-sm lg:text-base tracking-wide uppercase drop-shadow-sm">
+                <div className="[font-family:'Inter',Helvetica] font-semibold text-purple-600 text-sm lg:text-base tracking-wide uppercase drop-shadow-sm animate-fade-in opacity-0 hover:text-purple-700 transition-colors duration-500" style={{ animationDelay: '0.4s' }}>
                   Meet Sentinel
                 </div>
 
-                <h2 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-3xl lg:text-5xl tracking-tight leading-tight drop-shadow-sm">
+                <h2 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-3xl lg:text-5xl tracking-tight leading-tight drop-shadow-sm animate-fade-up opacity-0 hover:scale-105 transition-transform duration-700" style={{ animationDelay: '0.6s' }}>
                   Provide Powerful Solutions at All Times
                 </h2>
               </div>
 
-              <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed drop-shadow-sm">
+              <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed drop-shadow-sm animate-fade-up opacity-0 hover:text-gray-700 transition-colors duration-500" style={{ animationDelay: '0.8s' }}>
                 Stay on top of your day with real-time reminders, AI-powered
                 task management, and seamless communication tools. Sentinel
                 integrates everything you need into one intelligent assistant.
@@ -38,11 +38,11 @@ export const FeaturesSection = (): JSX.Element => {
 
             <div className="space-y-4">
               {features.map((feature, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-xl border border-white/20 hover:scale-110 transition-transform duration-300">
+                <div key={index} className="flex items-start gap-3 animate-fade-up opacity-0 hover:translate-x-2 transition-all duration-500" style={{ animationDelay: `${1 + index * 0.2}s` }}>
+                  <div className="w-7 h-7 flex-shrink-0 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-xl border border-white/20 hover:scale-125 hover:shadow-2xl transition-all duration-500 hover:rotate-12">
                     <div className="w-3 h-3 bg-white rounded-full shadow-md"></div>
                   </div>
-                  <div className="[font-family:'Inter',Helvetica] font-medium text-gray-800 text-base lg:text-lg leading-relaxed drop-shadow-sm">
+                  <div className="[font-family:'Inter',Helvetica] font-medium text-gray-800 text-base lg:text-lg leading-relaxed drop-shadow-sm hover:text-gray-900 transition-colors duration-500">
                     {feature}
                   </div>
                 </div>
@@ -50,9 +50,9 @@ export const FeaturesSection = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative animate-fade-up opacity-0" style={{ animationDelay: '0.4s' }}>
             <img
-              className="w-full max-w-[600px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/30 mx-auto hover:scale-105 transition-transform duration-500"
+              className="w-full max-w-[600px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/30 mx-auto hover:scale-110 hover:shadow-3xl transition-all duration-700 hover:-rotate-1"
               alt="Task Management Dashboard"
               src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
             />

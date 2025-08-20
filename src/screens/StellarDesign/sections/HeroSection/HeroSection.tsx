@@ -19,11 +19,6 @@ export const HeroSection = (): JSX.Element => {
                 Watermelon AI - Sentinel
               </div>
             </div>
-            <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-all duration-300 text-sm lg:text-base hover:scale-105">Features</a>
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-all duration-300 text-sm lg:text-base hover:scale-105">Pricing</a>
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-all duration-300 text-sm lg:text-base hover:scale-105">About</a>
-            </div>
           </div>
         </div>
       </nav>
@@ -118,22 +113,23 @@ export const HeroSection = (): JSX.Element => {
       </div>
       
       <div className="relative z-30 flex items-center justify-center min-h-[calc(100vh-120px)] px-6 py-12">
-        <div className="text-center max-w-4xl mx-auto space-y-6 lg:space-y-8">
+        <div className="text-center max-w-4xl mx-auto space-y-6 lg:space-y-8 animate-fade-up opacity-0" style={{ animationDelay: '0.2s' }}>
           <Badge
             variant="secondary"
-            className="bg-white/90 backdrop-blur-md text-purple-600 text-sm font-semibold px-6 py-3 rounded-full border border-purple-200/60 shadow-xl tracking-wide uppercase [font-family:'Inter',Helvetica] hover:scale-105 transition-transform duration-300"
+            className="bg-white/90 backdrop-blur-md text-purple-600 text-sm font-semibold px-6 py-3 rounded-full border border-purple-200/60 shadow-xl tracking-wide uppercase [font-family:'Inter',Helvetica] hover:scale-105 hover:shadow-2xl transition-all duration-500 animate-fade-in opacity-0" 
+            style={{ animationDelay: '0.4s' }}
           >
             Watermelon AI
           </Badge>
 
-          <div className="space-y-4 lg:space-y-6">
-            <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-7xl tracking-tight leading-tight drop-shadow-sm">
+          <div className="space-y-4 lg:space-y-6 animate-fade-up opacity-0" style={{ animationDelay: '0.6s' }}>
+            <h1 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-7xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700">
               Save time & Organise
             </h1>
 
             <div className="[font-family:'Inter',Helvetica] font-bold text-4xl lg:text-6xl tracking-tight leading-tight">
-              <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">better with </span>
-              <Badge className="inline-flex items-center justify-center h-[60px] lg:h-[100px] px-6 lg:px-8 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 rounded-full shadow-2xl border border-white/30 transform hover:scale-105 transition-all duration-300">
+              <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-700 inline-block">better with </span>
+              <Badge className="inline-flex items-center justify-center h-[60px] lg:h-[100px] px-6 lg:px-8 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 rounded-full shadow-2xl border border-white/30 transform hover:scale-110 hover:shadow-3xl transition-all duration-500 hover:rotate-1">
                 <span className="text-2xl lg:text-6xl [font-family:'Inter',Helvetica] font-bold text-white tracking-tight leading-tight">
                   Sentinel
                 </span>
@@ -141,7 +137,7 @@ export const HeroSection = (): JSX.Element => {
             </div>
           </div>
 
-          <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto px-4 drop-shadow-sm">
+          <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto px-4 drop-shadow-sm animate-fade-up opacity-0 hover:text-gray-700 transition-colors duration-500" style={{ animationDelay: '0.8s' }}>
             Your all-in-one productivity assistant that simplifies scheduling, notifications, and communication, powered by AI.
           </p>
         </div>

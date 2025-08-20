@@ -32,23 +32,24 @@ export const CallToActionSection = (): JSX.Element => {
       </div>
       
       <div className="container mx-auto max-w-[1072px] px-4 lg:px-8">
-        <div className="flex flex-col items-center mb-16 lg:mb-24 z-10 relative">
+        <div className="flex flex-col items-center mb-16 lg:mb-24 z-10 relative animate-fade-up opacity-0" style={{ animationDelay: '0.2s' }}>
           <Badge
             variant="secondary"
-            className="mb-6 lg:mb-8 bg-white/90 backdrop-blur-md text-purple-600 [font-family:'Inter',Helvetica] font-semibold text-sm px-6 py-3 rounded-full border border-purple-200/60 shadow-xl tracking-wide uppercase hover:scale-105 transition-transform duration-300"
+            className="mb-6 lg:mb-8 bg-white/90 backdrop-blur-md text-purple-600 [font-family:'Inter',Helvetica] font-semibold text-sm px-6 py-3 rounded-full border border-purple-200/60 shadow-xl tracking-wide uppercase hover:scale-105 hover:shadow-2xl transition-all duration-500 animate-fade-in opacity-0"
+            style={{ animationDelay: '0.4s' }}
           >
             Powerful Features
           </Badge>
 
-          <div className="text-center mb-6 lg:mb-8">
-            <h2 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-6xl tracking-tight leading-tight mb-4 drop-shadow-sm">
+          <div className="text-center mb-6 lg:mb-8 animate-fade-up opacity-0" style={{ animationDelay: '0.6s' }}>
+            <h2 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-6xl tracking-tight leading-tight mb-4 drop-shadow-sm hover:scale-105 transition-transform duration-700">
               Our product has
             </h2>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-4">
-              <span className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-6xl tracking-tight leading-tight drop-shadow-sm">
+              <span className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-4xl lg:text-6xl tracking-tight leading-tight drop-shadow-sm hover:scale-105 transition-transform duration-700 inline-block">
                 these big
               </span>
-              <Badge className="bg-gradient-to-r from-emerald-400 to-teal-500 hover:from-emerald-500 hover:to-teal-600 rounded-full shadow-2xl border border-white/30 h-[70px] lg:h-[100px] px-6 lg:px-8 transform hover:scale-105 transition-all duration-300">
+              <Badge className="bg-gradient-to-r from-emerald-400 to-teal-500 hover:from-emerald-500 hover:to-teal-600 rounded-full shadow-2xl border border-white/30 h-[70px] lg:h-[100px] px-6 lg:px-8 transform hover:scale-110 hover:shadow-3xl transition-all duration-500 hover:-rotate-1">
                 <span className="[font-family:'Inter',Helvetica] font-bold text-white text-3xl lg:text-6xl tracking-tight leading-tight">
                   features
                 </span>
@@ -57,32 +58,33 @@ export const CallToActionSection = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="relative mb-16 lg:mb-24 z-10">
+        <div className="relative mb-16 lg:mb-24 z-10 animate-fade-up opacity-0" style={{ animationDelay: '0.8s' }}>
           <img
-            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/30 mx-auto hover:scale-105 transition-transform duration-500"
+            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/30 mx-auto hover:scale-110 hover:shadow-3xl transition-all duration-700 hover:rotate-1"
             alt="Dashboard Analytics Interface"
             src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 z-10 relative">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 z-10 relative animate-fade-up opacity-0" style={{ animationDelay: '1s' }}>
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="bg-transparent border-none shadow-none hover:scale-105 transition-transform duration-300"
+              className="bg-transparent border-none shadow-none hover:scale-110 hover:-translate-y-2 transition-all duration-500 animate-fade-up opacity-0"
+              style={{ animationDelay: `${1.2 + index * 0.2}s` }}
             >
               <CardContent className="p-0">
-                <div className="flex flex-col items-center text-center gap-4 p-8 bg-white/70 backdrop-blur-md rounded-3xl shadow-xl border border-white/60 hover:bg-white/80 transition-all duration-300">
+                <div className="flex flex-col items-center text-center gap-4 p-8 bg-white/70 backdrop-blur-md rounded-3xl shadow-xl border border-white/60 hover:bg-white/85 hover:shadow-2xl transition-all duration-500">
                   <img
-                    className="w-8 h-8 flex-shrink-0 rounded-xl shadow-lg object-contain crisp-edges drop-shadow-sm"
+                    className="w-8 h-8 flex-shrink-0 rounded-xl shadow-lg object-contain crisp-edges drop-shadow-sm hover:scale-125 hover:rotate-12 transition-all duration-500"
                     alt={`${feature.title} icon`}
                     src={feature.icon}
                   />
                   <div className="flex-1">
-                    <h3 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-xl lg:text-2xl tracking-tight leading-tight mb-3 drop-shadow-sm">
+                    <h3 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-xl lg:text-2xl tracking-tight leading-tight mb-3 drop-shadow-sm hover:scale-105 transition-transform duration-500">
                       {feature.title}
                     </h3>
-                    <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-base lg:text-lg leading-relaxed drop-shadow-sm">
+                    <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-base lg:text-lg leading-relaxed drop-shadow-sm hover:text-gray-700 transition-colors duration-500">
                       {feature.description}
                     </p>
                   </div>
