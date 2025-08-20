@@ -6,23 +6,23 @@ export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-screen bg-gradient-to-br from-white via-purple-50/5 to-white overflow-hidden">
       {/* Navigation Bar */}
-      <nav className="relative z-50 w-full px-4 lg:px-8 py-6 bg-white shadow-sm">
+      <nav className="relative z-50 w-full px-3 lg:px-8 py-3 lg:py-6 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 lg:gap-3">
               <img 
                 src="https://i.postimg.cc/kDfQs7MK/logo.png" 
                 alt="Watermelon AI Sentinel Logo" 
-                className="w-8 h-8 lg:w-10 lg:h-10 object-contain"
+                className="w-6 h-6 lg:w-10 lg:h-10 object-contain"
               />
-              <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
+              <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-base lg:text-2xl">
                 Watermelon AI - Sentinel
               </div>
             </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Features</a>
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Pricing</a>
-              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">About</a>
+            <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors text-sm lg:text-base">Features</a>
+              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors text-sm lg:text-base">Pricing</a>
+              <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors text-sm lg:text-base">About</a>
             </div>
           </div>
         </div>
