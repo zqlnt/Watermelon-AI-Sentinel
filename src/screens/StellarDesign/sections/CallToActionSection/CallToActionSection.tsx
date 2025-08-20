@@ -61,7 +61,7 @@ export const CallToActionSection = (): JSX.Element => {
           <img
             className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20 mx-auto"
             alt="Dashboard Analytics Interface"
-            src="https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
         </div>
 

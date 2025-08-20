@@ -123,7 +123,7 @@ export const HeroSection = (): JSX.Element => {
             variant="secondary"
             className="bg-white/80 backdrop-blur-sm text-purple-600 text-sm font-semibold px-4 py-2 rounded-full border border-purple-200/50 shadow-lg tracking-wide uppercase [font-family:'Inter',Helvetica]"
           >
-            AI-Powered Assistant
+            Watermelon AI
           </Badge>
 
           <div className="space-y-4 lg:space-y-6">
