@@ -10,7 +10,7 @@ export const HeroSection = (): JSX.Element => {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
             <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
-              Sentinel
+              Watermelon AI - Sentinel
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Features</a>
