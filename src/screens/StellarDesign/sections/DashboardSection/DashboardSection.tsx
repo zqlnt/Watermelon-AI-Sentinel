@@ -33,7 +33,7 @@ export const DashboardSection = (): JSX.Element => {
           <img
             className="w-full max-w-[1000px] h-[300px] lg:h-[500px] object-cover rounded-[2.5rem] shadow-2xl border border-white/20"
             alt="Email Integration Dashboard"
-            src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=1008&h=600&fit=crop"
+            src="https://i.postimg.cc/67f2Qhyn/Chat-GPT-Image-Aug-20-2025-02-04-58-AM.png"
           />
         </div>
 

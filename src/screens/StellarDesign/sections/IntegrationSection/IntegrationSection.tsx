@@ -4,25 +4,25 @@ import { Card, CardContent } from "../../../../components/ui/card";
 export const IntegrationSection = (): JSX.Element => {
   const features = [
     {
-      icon: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Smart Scheduling",
       description:
         "Syncs with your calendar, prioritises tasks, and prevents double-booking.",
     },
     {
-      icon: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "AI Reminders",
       description:
         "Get proactive nudges for upcoming meetings, deadlines, and follow-ups.",
     },
     {
-      icon: "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Unified Dashboard",
       description:
         "View tasks, reminders, schedules, and notifications in one clean UI.",
     },
     {
-      icon: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Faster Routine",
       description:
         "Tailor the dashboard, notifications, and categories to fit your routine.",

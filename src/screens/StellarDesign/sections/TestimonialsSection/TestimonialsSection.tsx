@@ -14,7 +14,7 @@ export const TestimonialsSection = (): JSX.Element => {
           <img
             className="w-[320px] lg:w-[500px] h-[380px] lg:h-[550px] object-cover rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/20"
             alt="Email Management Interface"
-            src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=535&h=583&fit=crop"
+            src="https://i.postimg.cc/S2QXYzM5/Chat-GPT-Image-Aug-20-2025-01-59-35-AM.png"
           />
         </div>
 

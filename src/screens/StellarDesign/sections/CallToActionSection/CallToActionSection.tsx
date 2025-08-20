@@ -5,18 +5,18 @@ import { Card, CardContent } from "../../../../components/ui/card";
 export const CallToActionSection = (): JSX.Element => {
   const features = [
     {
-      icon: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=32&h=32&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Precision Analytics",
       description: "Track progress, time, and performance.",
     },
     {
-      icon: "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=32&h=32&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Smarter Tasks",
       description:
         "Prioritise intelligently with AI-driven task management that adapts to your workflow.",
     },
     {
-      icon: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=32&h=32&fit=crop",
+      icon: "https://i.postimg.cc/gLnnNF4H/Chat-GPT-Image-Aug-20-2025-02-09-33-AM.png",
       title: "Chat Bots",
       description:
         "Sentinel can schedule and organise your events and book meetings",
@@ -61,7 +61,7 @@ export const CallToActionSection = (): JSX.Element => {
           <img
             className="w-full max-w-[1000px] h-[300px] lg:h-[500px] object-cover rounded-[2.5rem] shadow-2xl border border-white/20"
             alt="Dashboard Analytics Interface"
-            src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1200&h=324&fit=crop"
+            src="https://i.postimg.cc/S2Zn6NLK/Chat-GPT-Image-Aug-20-2025-01-46-33-AM.png"
           />
         </div>
 
