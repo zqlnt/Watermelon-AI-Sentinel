@@ -9,16 +9,20 @@ export const HeroSection = (): JSX.Element => {
       <nav className="relative z-50 w-full px-4 lg:px-8 py-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
-            <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
-              Watermelon AI - Sentinel
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://i.postimg.cc/kDfQs7MK/logo.png" 
+                alt="Watermelon AI Sentinel Logo" 
+                className="w-8 h-8 lg:w-10 lg:h-10"
+              />
+              <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
+                Watermelon AI - Sentinel
+              </div>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Features</a>
               <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Pricing</a>
               <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">About</a>
-              <button className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300">
-                Get Started
-              </button>
             </div>
           </div>
         </div>
@@ -141,12 +145,6 @@ export const HeroSection = (): JSX.Element => {
           <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto px-4">
             Your all-in-one productivity assistant that simplifies scheduling, notifications, and communication, powered by AI.
           </p>
-
-          <div className="pt-6 lg:pt-8">
-            <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-bold px-8 lg:px-12 py-4 lg:py-5 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 text-lg lg:text-xl">
-              Get Started Free
-            </button>
-          </div>
         </div>
       </div>
     </section>

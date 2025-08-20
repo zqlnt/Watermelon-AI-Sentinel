@@ -35,12 +35,6 @@ export const TestimonialsSection = (): JSX.Element => {
               powerful integrations and AI-driven productivity, your day runs
               smoother than ever.
             </p>
-            
-            <div className="pt-4">
-              <button className="bg-gradient-to-r from-red-500 to-pink-600 hover:from-red-600 hover:to-pink-700 text-white font-semibold px-8 py-4 rounded-full shadow-xl transform hover:scale-105 transition-all duration-300 text-lg">
-                Download Now
-              </button>
-            </div>
           </div>
         </div>
       </div>
