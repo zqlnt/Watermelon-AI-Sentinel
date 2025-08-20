@@ -10,7 +10,7 @@ export const HeroSection = (): JSX.Element => {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
             <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
-              Watermelon AI - Sentinel
+              Sentinel
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="[font-family:'Inter',Helvetica] font-medium text-gray-600 hover:text-purple-600 transition-colors">Features</a>
@@ -120,7 +120,7 @@ export const HeroSection = (): JSX.Element => {
             variant="secondary"
             className="bg-white/80 backdrop-blur-sm text-purple-600 text-sm font-semibold px-4 py-2 rounded-full border border-purple-200/50 shadow-lg tracking-wide uppercase [font-family:'Inter',Helvetica]"
           >
-            Watermelon AI
+            AI-Powered Assistant
           </Badge>
 
           <div className="space-y-4 lg:space-y-6">
