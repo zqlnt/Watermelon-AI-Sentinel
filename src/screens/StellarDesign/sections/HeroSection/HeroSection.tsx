@@ -6,12 +6,12 @@ export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-screen bg-gradient-to-br from-white via-purple-50/5 to-white overflow-hidden">
       {/* Navigation Bar */}
-      <nav className="relative z-50 w-full px-4 lg:px-8 py-6">
+      <nav className="relative z-50 w-full px-4 lg:px-8 py-6 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                src="https://postimg.cc/N5ZrCM39" 
+                src="https://postimg.cc/kDfQs7MK" 
                 alt="Watermelon AI Sentinel Logo" 
                 className="w-8 h-8 lg:w-10 lg:h-10"
               />
@@ -29,14 +29,6 @@ export const HeroSection = (): JSX.Element => {
       </nav>
 
       {/* Glowing blurred orbs - kept in background with very low opacity */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-10 w-32 h-32 lg:w-64 lg:h-64 bg-gradient-to-br from-purple-400 to-indigo-500 rounded-full blur-3xl opacity-2 animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-40 h-40 lg:w-80 lg:h-80 bg-gradient-to-br from-red-300 to-pink-400 rounded-full blur-3xl opacity-2 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 left-1/4 w-36 h-36 lg:w-72 lg:h-72 bg-gradient-to-br from-green-300 to-emerald-400 rounded-full blur-3xl opacity-2 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-60 left-1/2 w-28 h-28 lg:w-56 lg:h-56 bg-gradient-to-br from-violet-400 to-purple-500 rounded-full blur-3xl opacity-3 animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-        <div className="absolute bottom-20 right-1/3 w-44 h-44 lg:w-88 lg:h-88 bg-gradient-to-br from-indigo-400 to-blue-500 rounded-full blur-3xl opacity-1 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-        <div className="absolute top-1/3 right-10 w-24 h-24 lg:w-48 lg:h-48 bg-gradient-to-br from-red-400 to-orange-400 rounded-full blur-2xl opacity-2 animate-pulse" style={{ animationDelay: '3s' }}></div>
-      </div>
       
       {/* Floating Icons */}
       <div className="absolute inset-0 pointer-events-none">

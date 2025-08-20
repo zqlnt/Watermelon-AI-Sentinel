@@ -12,7 +12,7 @@ export const TestimonialsSection = (): JSX.Element => {
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 lg:px-8 gap-8 lg:gap-16">
         <div className="relative flex-shrink-0 order-2 lg:order-1 z-10">
           <img
-            className="w-[320px] lg:w-[500px] h-[380px] lg:h-[550px] object-cover rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/20"
+            className="w-[320px] lg:w-[500px] h-auto object-contain rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/20"
             alt="Email Management Interface"
             src="https://i.postimg.cc/S2QXYzM5/Chat-GPT-Image-Aug-20-2025-01-59-35-AM.png"
           />

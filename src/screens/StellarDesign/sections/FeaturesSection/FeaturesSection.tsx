@@ -52,7 +52,7 @@ export const FeaturesSection = (): JSX.Element => {
 
           <div className="relative">
             <img
-              className="w-full h-auto object-cover rounded-[2rem] shadow-2xl border border-white/20"
+              className="w-full max-w-[600px] h-auto object-contain rounded-[2rem] shadow-2xl border border-white/20 mx-auto"
               alt="Task Management Dashboard"
               src="https://i.postimg.cc/7CkJDRYq/Chat-GPT-Image-Aug-20-2025-01-36-16-AM.png"
             />

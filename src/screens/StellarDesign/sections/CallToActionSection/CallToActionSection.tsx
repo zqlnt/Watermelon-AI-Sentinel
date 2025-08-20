@@ -59,7 +59,7 @@ export const CallToActionSection = (): JSX.Element => {
 
         <div className="relative mb-16 lg:mb-24 z-10">
           <img
-            className="w-full max-w-[1000px] h-[300px] lg:h-[500px] object-cover rounded-[2.5rem] shadow-2xl border border-white/20"
+            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20 mx-auto"
             alt="Dashboard Analytics Interface"
             src="https://i.postimg.cc/S2Zn6NLK/Chat-GPT-Image-Aug-20-2025-01-46-33-AM.png"
           />
