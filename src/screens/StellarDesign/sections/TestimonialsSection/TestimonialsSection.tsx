@@ -5,14 +5,14 @@ export const TestimonialsSection = (): JSX.Element => {
     <section className="relative w-full bg-gradient-to-b from-white via-red-50/5 to-white py-16 lg:py-24 overflow-hidden">
       {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-32 left-20 w-56 h-56 lg:w-112 lg:h-112 bg-gradient-to-br from-red-200 to-pink-300 rounded-full blur-3xl opacity-1 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 right-20 w-64 h-64 lg:w-128 lg:h-128 bg-gradient-to-br from-purple-200 to-indigo-300 rounded-full blur-3xl opacity-1 animate-pulse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-32 left-20 w-56 h-56 lg:w-112 lg:h-112 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-32 right-20 w-64 h-64 lg:w-128 lg:h-128 bg-gradient-to-br from-purple-100 to-indigo-200 rounded-full blur-3xl opacity-45 animate-pulse" style={{ animationDelay: '3s' }}></div>
       </div>
       
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 lg:px-8 gap-8 lg:gap-16">
         <div className="relative flex-shrink-0 order-2 lg:order-1 z-10">
           <img
-            className="w-[320px] lg:w-[500px] h-auto object-contain rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/20"
+            className="w-[320px] lg:w-[500px] h-auto object-contain rounded-[2.5rem] lg:rounded-[3rem] shadow-2xl border border-white/30 hover:scale-105 transition-transform duration-500"
             alt="Calendar Scheduling Interface"
             src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
@@ -21,16 +21,16 @@ export const TestimonialsSection = (): JSX.Element => {
         <div className="flex-1 max-w-[550px] lg:ml-16 order-1 lg:order-2 text-center lg:text-left z-10">
           <div className="space-y-6">
             <div className="space-y-4">
-              <div className="[font-family:'Inter',Helvetica] font-semibold text-red-500 text-sm lg:text-base tracking-wide uppercase">
+              <div className="[font-family:'Inter',Helvetica] font-semibold text-rose-500 text-sm lg:text-base tracking-wide uppercase drop-shadow-sm">
                 Get Started
               </div>
 
-              <h2 className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-3xl lg:text-5xl tracking-tight leading-tight">
+              <h2 className="[font-family:'Inter',Helvetica] font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent text-3xl lg:text-5xl tracking-tight leading-tight drop-shadow-sm">
                 Start Your Sentinel Journey Today
               </h2>
             </div>
 
-            <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed">
+            <p className="[font-family:'Inter',Helvetica] font-normal text-gray-600 text-lg lg:text-xl leading-relaxed drop-shadow-sm">
               Download Sentinel and experience effortless organisation. With
               powerful integrations and AI-driven productivity, your day runs
               smoother than ever.
