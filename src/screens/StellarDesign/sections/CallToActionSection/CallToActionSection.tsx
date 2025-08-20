@@ -59,7 +59,7 @@ export const CallToActionSection = (): JSX.Element => {
 
         <div className="relative mb-16 lg:mb-24 z-10">
           <img
-            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20 mx-auto"
+            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20 mx-auto crisp-edges"
             alt="Dashboard Analytics Interface"
             src="https://i.postimg.cc/S2Zn6NLK/Chat-GPT-Image-Aug-20-2025-01-46-33-AM.png"
           />
@@ -74,7 +74,7 @@ export const CallToActionSection = (): JSX.Element => {
               <CardContent className="p-0">
                 <div className="flex flex-col items-center text-center gap-4 p-6 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg border border-white/50">
                   <img
-                    className="w-12 h-12 flex-shrink-0 rounded-xl shadow-md"
+                    className="w-12 h-12 flex-shrink-0 rounded-xl shadow-md object-contain crisp-edges"
                     alt={`${feature.title} icon`}
                     src={feature.icon}
                   />

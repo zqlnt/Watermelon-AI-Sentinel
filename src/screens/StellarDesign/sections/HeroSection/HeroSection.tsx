@@ -11,9 +11,9 @@ export const HeroSection = (): JSX.Element => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                src="https://postimg.cc/kDfQs7MK" 
+                src="https://i.postimg.cc/kDfQs7MK/logo.png" 
                 alt="Watermelon AI Sentinel Logo" 
-                className="w-8 h-8 lg:w-10 lg:h-10"
+                className="w-8 h-8 lg:w-10 lg:h-10 object-contain"
               />
               <div className="[font-family:'Inter',Helvetica] font-bold text-gray-900 text-xl lg:text-2xl">
                 Watermelon AI - Sentinel
@@ -29,6 +29,13 @@ export const HeroSection = (): JSX.Element => {
       </nav>
 
       {/* Glowing blurred orbs - kept in background with very low opacity */}
+      
+      {/* Glowing blurred orbs */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute top-20 right-10 w-72 h-72 lg:w-144 lg:h-144 bg-gradient-to-br from-purple-200 to-indigo-300 rounded-full blur-3xl opacity-30 animate-pulse" style={{ animationDelay: '0s' }}></div>
+        <div className="absolute bottom-20 left-10 w-80 h-80 lg:w-160 lg:h-160 bg-gradient-to-br from-pink-200 to-red-300 rounded-full blur-3xl opacity-25 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 lg:w-192 lg:h-192 bg-gradient-to-br from-green-200 to-emerald-300 rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: '4s' }}></div>
+      </div>
       
       {/* Floating Icons */}
       <div className="absolute inset-0 pointer-events-none">
