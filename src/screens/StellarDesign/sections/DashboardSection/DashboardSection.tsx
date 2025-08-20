@@ -31,9 +31,9 @@ export const DashboardSection = (): JSX.Element => {
 
         <div className="flex justify-center mb-12 lg:mb-16 z-10 relative">
           <img
-            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20 crisp-edges"
+            className="w-full max-w-[800px] h-auto object-contain rounded-[2.5rem] shadow-2xl border border-white/20"
             alt="Email Integration Dashboard"
-            src="https://i.postimg.cc/67f2Qhyn/Chat-GPT-Image-Aug-20-2025-02-04-58-AM.png"
+            src="https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg?auto=compress&cs=tinysrgb&w=800"
           />
         </div>
 

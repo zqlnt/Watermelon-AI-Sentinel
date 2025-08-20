@@ -59,7 +59,7 @@ export const IntegrationSection = (): JSX.Element => {
                 >
                   <CardContent className="p-0 space-y-4 text-center lg:text-left">
                     <img
-                      className="w-12 h-12 flex-shrink-0 mx-auto lg:mx-0 rounded-xl shadow-md object-contain crisp-edges"
+                      className="w-8 h-8 flex-shrink-0 mx-auto lg:mx-0 rounded-lg shadow-md object-contain crisp-edges"
                       alt="Feature icon"
                       src={feature.icon}
                     />
