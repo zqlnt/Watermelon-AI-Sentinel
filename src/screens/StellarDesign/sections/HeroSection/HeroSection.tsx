@@ -11,7 +11,7 @@ export const HeroSection = (): JSX.Element => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                src="https://i.postimg.cc/kDfQs7MK/logo.png" 
+                src="https://postimg.cc/N5ZrCM39" 
                 alt="Watermelon AI Sentinel Logo" 
                 className="w-8 h-8 lg:w-10 lg:h-10"
               />
