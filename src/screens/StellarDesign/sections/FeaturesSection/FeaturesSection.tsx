@@ -11,8 +11,8 @@ export const FeaturesSection = (): JSX.Element => {
     <section className="relative w-full bg-gradient-to-b from-white via-green-50/5 to-white py-16 lg:py-24 overflow-hidden">
       {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 right-10 w-48 h-48 lg:w-96 lg:h-96 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-20 left-10 w-40 h-40 lg:w-80 lg:h-80 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-40 animate-pulse" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-20 right-10 w-48 h-48 lg:w-96 lg:h-96 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-15 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-20 left-10 w-40 h-40 lg:w-80 lg:h-80 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-10 animate-pulse" style={{ animationDelay: '4s' }}></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 lg:px-6">

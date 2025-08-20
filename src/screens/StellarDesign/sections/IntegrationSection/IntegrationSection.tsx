@@ -33,8 +33,8 @@ export const IntegrationSection = (): JSX.Element => {
     <section className="relative w-full bg-gradient-to-b from-white via-green-50/5 to-white py-16 lg:py-32 overflow-hidden">
       {/* Background orbs */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-40 right-20 w-60 h-60 lg:w-120 lg:h-120 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-        <div className="absolute bottom-40 left-20 w-52 h-52 lg:w-104 lg:h-104 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-45 animate-pulse" style={{ animationDelay: '3.5s' }}></div>
+        <div className="absolute top-40 right-20 w-60 h-60 lg:w-120 lg:h-120 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-15 animate-pulse" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute bottom-40 left-20 w-52 h-52 lg:w-104 lg:h-104 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-10 animate-pulse" style={{ animationDelay: '3.5s' }}></div>
       </div>
       
       <div className="max-w-[1072px] mx-auto px-4 lg:px-8">

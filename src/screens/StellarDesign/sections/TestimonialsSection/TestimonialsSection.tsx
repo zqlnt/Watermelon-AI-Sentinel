@@ -5,8 +5,8 @@ export const TestimonialsSection = (): JSX.Element => {
     <section className="relative w-full bg-gradient-to-b from-white via-red-50/5 to-white py-16 lg:py-24 overflow-hidden">
       {/* Subtle background orbs */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-32 left-20 w-56 h-56 lg:w-112 lg:h-112 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 right-20 w-64 h-64 lg:w-128 lg:h-128 bg-gradient-to-br from-purple-100 to-indigo-200 rounded-full blur-3xl opacity-45 animate-pulse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-32 left-20 w-56 h-56 lg:w-112 lg:h-112 bg-gradient-to-br from-rose-100 to-pink-200 rounded-full blur-3xl opacity-15 animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-32 right-20 w-64 h-64 lg:w-128 lg:h-128 bg-gradient-to-br from-purple-100 to-indigo-200 rounded-full blur-3xl opacity-10 animate-pulse" style={{ animationDelay: '3s' }}></div>
       </div>
       
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 lg:px-8 gap-8 lg:gap-16">

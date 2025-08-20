@@ -27,8 +27,8 @@ export const CallToActionSection = (): JSX.Element => {
     <section className="relative w-full bg-gradient-to-br from-white via-purple-50/5 to-white py-16 lg:py-32 overflow-hidden">
       {/* Background orbs */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-10 w-72 h-72 lg:w-144 lg:h-144 bg-gradient-to-br from-purple-100 to-indigo-200 rounded-full blur-3xl opacity-50 animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-        <div className="absolute bottom-20 right-10 w-80 h-80 lg:w-160 lg:h-160 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-45 animate-pulse" style={{ animationDelay: '2.5s' }}></div>
+        <div className="absolute top-20 left-10 w-72 h-72 lg:w-144 lg:h-144 bg-gradient-to-br from-purple-100 to-indigo-200 rounded-full blur-3xl opacity-15 animate-pulse" style={{ animationDelay: '0.5s' }}></div>
+        <div className="absolute bottom-20 right-10 w-80 h-80 lg:w-160 lg:h-160 bg-gradient-to-br from-emerald-100 to-teal-200 rounded-full blur-3xl opacity-10 animate-pulse" style={{ animationDelay: '2.5s' }}></div>
       </div>
       
       <div className="container mx-auto max-w-[1072px] px-4 lg:px-8">
