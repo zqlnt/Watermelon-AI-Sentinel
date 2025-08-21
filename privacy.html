@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentinel Privacy Policy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+  <!-- Top Bar -->
+  <header class="p-6 flex justify-between items-center border-b border-gray-800">
+    <div class="flex items-center space-x-3">
+      <img src="https://i.postimg.cc/kDfQs7MK/logo.png" alt="Sentinel Logo" class="w-8 h-8">
+      <span class="font-bold text-lg">Sentinel</span>
+    </div>
+    <a href="/" class="text-indigo-400 hover:text-indigo-300 hover:scale-105 transition-all duration-200">Back to website</a>
+  </header>
+
+  <div class="max-w-7xl mx-auto flex mt-6 px-4">
+    <!-- Sidebar -->
+    <aside class="w-64 mr-6">
+      <div class="bg-gray-800 p-5 rounded-xl sticky top-6 hover:bg-gray-750 transition-all duration-200">
+        <h3 class="font-semibold mb-4">Privacy Policy</h3>
+        <ul class="space-y-2 text-gray-400 text-sm">
+          <li><a href="#info" class="hover:text-white hover:translate-x-2 transition-all duration-200">1. Information We Collect</a></li>
+          <li><a href="#use" class="hover:text-white hover:translate-x-2 transition-all duration-200">2. How We Use Your Information</a></li>
+          <li><a href="#storage" class="hover:text-white hover:translate-x-2 transition-all duration-200">3. Data Storage & Security</a></li>
+          <li><a href="#sharing" class="hover:text-white hover:translate-x-2 transition-all duration-200">4. Data Sharing</a></li>
+          <li><a href="#rights" class="hover:text-white hover:translate-x-2 transition-all duration-200">5. Your Rights</a></li>
+          <li><a href="#cookies" class="hover:text-white hover:translate-x-2 transition-all duration-200">6. Cookies</a></li>
+          <li><a href="#retention" class="hover:text-white hover:translate-x-2 transition-all duration-200">7. Retention</a></li>
+          <li><a href="#changes" class="hover:text-white hover:translate-x-2 transition-all duration-200">8. Changes</a></li>
+          <li><a href="#contact" class="hover:text-white hover:translate-x-2 transition-all duration-200">9. Contact Us</a></li>
+        </ul>
+        <button onclick="downloadPDF()" class="mt-6 w-full bg-indigo-600 hover:bg-indigo-500 hover:scale-105 py-2 rounded-lg font-semibold transition-all duration-200">Download PDF</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 bg-gray-800 rounded-xl p-8 shadow hover:bg-gray-750 transition-all duration-200">
+      <h1 class="text-2xl font-bold mb-2">Privacy Policy</h1>
+      <p class="text-gray-400 mb-6">Effective date: <span class="font-semibold text-white">14 August 2025</span></p>
+
+      <p class="mb-6">
+        This Privacy Policy explains how <span class="font-semibold">Sentinel</span> ("we," "our," or "us") collects, uses, stores, and protects your personal information when you use our application and related services. We are committed to safeguarding your privacy and complying with the <span class="font-semibold">UK General Data Protection Regulation (UK GDPR)</span> and the <span class="font-semibold">Data Protection Act 2018</span>.
+      </p>
+
+      <section id="info" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">1. Information We Collect</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-semibold">Account Information</span> – name, email address, and authentication credentials (OAuth tokens for email/calendar integration).</li>
+          <li><span class="font-semibold">Connected Service Data</span> – emails, contacts, events, and tasks from linked accounts (e.g., Gmail, Google Calendar), processed only with your permission.</li>
+          <li><span class="font-semibold">Usage Data</span> – actions taken within the app, device type, IP address, and browser information.</li>
+          <li><span class="font-semibold">Support Communications</span> – messages or emails you send to our support team.</li>
+        </ul>
+      </section>
+
+      <section id="use" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">2. How We Use Your Information</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>Provide core features (email search, dashboard integration, calendar management).</li>
+          <li>Sync and process your data from connected services.</li>
+          <li>Improve performance and user experience.</li>
+          <li>Send important updates and respond to support requests.</li>
+          <li>Maintain security and prevent misuse of the service.</li>
+        </ul>
+        <p class="mt-2">We do not sell your personal data to third parties.</p>
+      </section>
+
+      <section id="storage" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">3. Data Storage & Security</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>Your raw email and calendar content is stored securely and may be encrypted end-to-end where possible.</li>
+          <li>Email embeddings (mathematical representations for AI features) are stored separately to protect content confidentiality.</li>
+          <li>We use secure servers located in the UK and/or EEA.</li>
+          <li>OAuth tokens are encrypted and stored only to maintain your active connections.</li>
+        </ul>
+      </section>
+
+      <section id="sharing" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">4. Data Sharing</h2>
+        <p>We only share your data with:</p>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-semibold">Service providers</span> – e.g., cloud hosting, AI processing, and analytics platforms, all bound by strict confidentiality agreements.</li>
+          <li><span class="font-semibold">Legal authorities</span> – only when required by law.</li>
+        </ul>
+      </section>
+
+      <section id="rights" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">5. Your Rights</h2>
+        <p>Under UK GDPR, you have the right to access the data we hold about you, request corrections, request deletion ("right to be forgotten"), withdraw consent, and receive a copy of your data in a portable format.</p>
+        <p class="mt-2">You can exercise these rights by contacting us at <a href="mailto:office@watermelonai.com" class="text-indigo-400 hover:underline hover:text-indigo-300 transition-all duration-200">office@watermelonai.com</a>.</p>
+      </section>
+
+      <section id="cookies" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">6. Cookies</h2>
+        <p>Cookies are not currently in use.</p>
+      </section>
+
+      <section id="retention" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">7. Retention</h2>
+        <p>We retain your personal data only as long as necessary to provide our services or comply with legal obligations. If you delete your account, we will remove associated data within 30 days.</p>
+      </section>
+
+      <section id="changes" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">8. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Significant changes will be notified via the app or email.</p>
+      </section>
+
+      <section id="contact" class="mb-8 p-4 rounded-lg hover:bg-gray-700 transition-all duration-200">
+        <h2 class="text-xl font-semibold mb-3">9. Contact Us</h2>
+        <p><span class="font-semibold">Sentinel Privacy Officer</span></p>
+        <p>Email: <a href="mailto:michael_antonio@watermelonai.com" class="text-indigo-400 hover:underline hover:text-indigo-300 transition-all duration-200">michael_antonio@watermelonai.com</a></p>
+        <p>Address: 140 Regent Road, Leicester, England, LE1 7PA</p>
+        <p class="text-gray-400 text-sm mt-2">Last updated: 21 August 2025</p>
+      </section>
+    </main>
+  </div>
+
+  <!-- PDF Script -->
+  <script>
+    function downloadPDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF("p", "pt", "a4");
+
+      // Logo
+      const img = new Image();
+      img.src = "https://i.postimg.cc/kDfQs7MK/logo.png";
+      img.onload = function() {
+        doc.addImage(img, "PNG", 40, 20, 40, 40);
+
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(16);
+        doc.text("Sentinel Privacy Policy", 100, 50);
+
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(11);
+        let text = document.querySelector("main").innerText;
+        doc.text(text, 40, 90, { maxWidth: 520, align: "left" });
+
+        doc.save("Sentinel-Privacy-Policy.pdf");
+      };
+    }
+  </script>
+</body>
+</html>
