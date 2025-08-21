@@ -10,40 +10,39 @@
 </head>
 <body class="antialiased selection:bg-white/10 selection:text-white text-white bg-neutral-950" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto">
   <!-- Top Navigation -->
-  <header class="sticky top-0 z-30 backdrop-blur-md bg-neutral-950/70 border-b border-white/10">
+  <header class="sticky top-0 z-30 mt-4">
     <div class="max-w-7xl mx-auto px-6">
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
-        <a href="#" class="inline-flex items-center gap-2">
+        <a href="#" class="inline-flex items-center gap-2 ml-6">
           <img 
             src="https://i.postimg.cc/kDfQs7MK/logo.png" 
             alt="Watermelon AI Sentinel Logo" 
             class="w-8 h-8 object-contain drop-shadow-sm"
           />
-          <span class="text-sm sm:text-base font-medium tracking-tight">Watermelon AI Sentinel</span>
+          <span class="text-sm sm:text-base font-medium tracking-tight text-gray-900">Watermelon AI Sentinel</span>
         </a>
 
         <!-- Nav -->
-        <nav class="hidden md:flex items-center gap-6 text-sm text-white/70">
-          <a href="#features" class="hover:text-white transition-colors">Features</a>
-          <a href="#cards" class="hover:text-white transition-colors">Benefits</a>
-          <a href="#insights" class="hover:text-white transition-colors">Insights</a>
-          <a href="#integrations" class="hover:text-white transition-colors">Integrations</a>
+        <nav class="hidden md:flex items-center gap-6 text-sm text-gray-600">
+          <a href="#features" class="hover:text-gray-900 transition-colors">Features</a>
+          <a href="#cards" class="hover:text-gray-900 transition-colors">Benefits</a>
+          <a href="#insights" class="hover:text-gray-900 transition-colors">Insights</a>
+          <a href="#integrations" class="hover:text-gray-900 transition-colors">Integrations</a>
         </nav>
 
         <!-- Actions -->
-        <div class="flex items-center gap-2">
-          <a href="#" class="hidden sm:inline-flex items-center h-9 px-3 rounded-lg border border-white/10 text-sm text-white/80 hover:text-white hover:border-white/20 transition-colors">
-            Sign in
-          </a>
-          <a href="#" class="inline-flex items-center h-9 px-3 rounded-lg bg-white text-neutral-900 text-sm font-medium hover:bg-white/90 transition-colors">
-            Get Started
+        <div class="flex items-center gap-2 mr-6">
+          <a href="#" class="inline-flex items-center h-9 px-3 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-colors">
+            Learn More
             <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </a>
         </div>
+      </div>
       </div>
     </div>
   </header>
@@ -68,18 +67,16 @@
 
         <div class="mt-6 flex flex-col sm:flex-row gap-3">
           <a href="#" class="inline-flex items-center justify-center h-11 hover:bg-white/90 transition text-sm font-medium text-neutral-900 bg-white rounded-xl pr-4 pl-4 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]">
-            Download Sentinel
+            Try Sentinel
             <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-              <path d="M7 10l5 5 5-5"></path>
-              <path d="M12 15V3"></path>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
             </svg>
           </a>
           <a href="#" class="inline-flex items-center justify-center h-11 hover:text-white hover:border-white/20 transition text-sm text-white/90 border-white/10 border rounded-xl pr-4 pl-4 shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] backdrop-blur-lg">
-            Watch demo
+            Explore Features
             <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <circle cx="12" cy="12" r="10"></circle>
-              <path d="m9 12 2 2 4-4"></path>
+              <path d="M3 3v18h18"></path>
+              <path d="M19 9l-6 6-4-4-4 4"></path>
             </svg>
           </a>
         </div>
@@ -102,7 +99,7 @@
             <div class="col-span-12 md:col-span-6 space-y-3">
               <div class="group relative h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 bg-neutral-900">
                 <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Task dashboard" class="absolute inset-0 w-full h-full object-cover opacity-60">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/70 via-neutral-950/20 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
                 <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                   <div>
                     <p class="text-xs text-white/60">Task completion</p>
@@ -163,7 +160,7 @@
 
               <div class="group relative h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 bg-neutral-900">
                 <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Communication hub" class="absolute inset-0 w-full h-full object-cover opacity-50">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/70 via-neutral-950/20 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
                 <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
                   <div>
                     <p class="text-xs text-white/60">Communication</p>
@@ -205,6 +202,7 @@
       <!-- Card 1 -->
       <article class="group relative rounded-3xl overflow-hidden bg-neutral-900 h-80 shadow-xl border border-white/10">
         <div class="absolute inset-0 bg-[url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800)] bg-cover"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
         <div class="absolute bottom-0 left-0 right-0 pt-6 pr-6 pb-6 pl-6">
           <h3 class="text-white text-xl md:text-2xl font-semibold leading-snug tracking-tight mb-1">
             Personal Assistant
@@ -221,6 +219,7 @@
       <!-- Card 2 -->
       <article class="group relative rounded-3xl overflow-hidden bg-neutral-900 h-80 shadow-xl border border-white/10">
         <div class="absolute inset-0 bg-[url(https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800)] bg-cover"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
         <div class="absolute bottom-0 left-0 right-0 p-6">
           <h3 class="text-white text-xl md:text-2xl font-semibold leading-snug tracking-tight mb-1">Smarter Tasks</h3>
           <p class="text-white/70 text-sm mb-3">Stay one step ahead with intelligent task management that organises and prioritises for you.</p>
@@ -236,6 +235,7 @@
       <!-- Card 3 -->
       <article class="group relative rounded-3xl overflow-hidden bg-neutral-900 h-80 shadow-xl border border-white/10">
         <div class="absolute inset-0 bg-[url(https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800)] bg-cover"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
         <div class="absolute bottom-0 left-0 right-0 p-6">
           <h3 class="text-white text-xl md:text-2xl font-semibold leading-snug tracking-tight mb-1">Chat Bots</h3>
           <p class="text-white/70 text-sm mb-3">Let Sentinel take care of the routine, from booking meetings to sending reminders and keeping your calendar in order.</p>
@@ -351,6 +351,8 @@
 
       <!-- Insight bullets -->
       <div class="lg:col-span-5 md:p-8 bg-[url(https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800)] bg-cover border-white/10 rounded-3xl pt-6 pr-6 pb-6 pl-6">
+        <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30 rounded-3xl"></div>
+        <div class="relative z-10">
         <h3 class="text-xl font-semibold tracking-tight">Meet Sentinel</h3>
         <p class="text-sm text-white/70">Your everyday companion for a smoother workflow</p>
         <div class="mt-4 space-y-3">
@@ -386,6 +388,7 @@
             <svg width="16" height="16" viewBox="0 0 24 24" class="ml-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
           </a>
         </div>
+        </div>
       </div>
     </div>
   </section>
@@ -393,6 +396,8 @@
   <!-- Integrations -->
   <section id="integrations" class="max-w-7xl mx-auto px-6 mt-16">
     <div class="md:p-8 bg-[url(https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1600)] bg-cover border-white/10 rounded-3xl pt-6 pr-6 pb-6 pl-6">
+      <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30 rounded-3xl"></div>
+      <div class="relative z-10">
       <!-- Testimonials -->
       <div class="grid md:grid-cols-3 gap-6 items-center mb-16">
         <div>
@@ -428,6 +433,7 @@
         <h3 class="md:text-3xl text-2xl font-semibold tracking-tight">Integrations That Matter</h3>
         <p class="text-white/70 mt-2 max-w-2xl mx-auto">Sentinel works with the tools you already use, including Google Calendar, Slack and Outlook, so everything comes together seamlessly.</p>
       </div>
+      </div>
     </div>
   </section>
 
@@ -436,12 +442,12 @@
     <div class="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.02] p-6 md:p-10">
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
-          <h3 class="text-2xl md:text-3xl font-semibold tracking-tight">Download Sentinel today</h3>
-          <p class="text-sm text-white/70 mt-1">Enjoy a simpler, smoother way to get things done with your AI productivity assistant.</p>
+          <h3 class="text-2xl md:text-3xl font-semibold tracking-tight">Experience Sentinel today</h3>
+          <p class="text-sm text-white/70 mt-1">Discover a simpler, smoother way to get things done with your AI productivity assistant.</p>
         </div>
         <div class="flex gap-3">
           <a href="#" class="inline-flex items-center h-11 px-4 rounded-xl bg-white text-neutral-900 text-sm font-medium hover:bg-white/90 transition">
-            Get Started
+            Try Now
             <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M7 10l5 5 5-5"></path><path d="M12 15V3"></path></svg>
           </a>
           <a href="#" class="inline-flex items-center h-11 px-4 rounded-xl border border-white/10 text-sm text-white/90 hover:text-white hover:border-white/20 transition">
@@ -454,21 +460,25 @@
   </section>
 
   <!-- Footer -->
-  <footer class="border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+  <footer class="mb-4">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 py-8">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 px-6">
       <div class="flex items-center gap-2">
         <img 
           src="https://i.postimg.cc/kDfQs7MK/logo.png" 
           alt="Watermelon AI Sentinel Logo" 
           class="w-6 h-6 object-contain"
         />
-        <span class="text-sm text-white/70">© 2025 Watermelon AI Inc.</span>
+        <span class="text-sm text-gray-600">© 2025 Watermelon AI Inc.</span>
       </div>
-      <div class="flex items-center gap-4 text-sm text-white/60">
-        <a href="#" class="hover:text-white">Privacy</a>
-        <a href="#" class="hover:text-white">Terms</a>
-        <a href="#" class="hover:text-white">Support</a>
-        <a href="#" class="hover:text-white">Contact</a>
+      <div class="flex items-center gap-4 text-sm text-gray-500">
+        <a href="#" class="hover:text-gray-900">Privacy</a>
+        <a href="#" class="hover:text-gray-900">Terms</a>
+        <a href="#" class="hover:text-gray-900">Support</a>
+        <a href="#" class="hover:text-gray-900">Contact</a>
+      </div>
+        </div>
       </div>
     </div>
   </footer>
