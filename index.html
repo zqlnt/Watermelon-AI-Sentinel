@@ -34,13 +34,6 @@
 
         <!-- Actions -->
         <div class="flex items-center gap-2 mr-6">
-          <a href="#" class="inline-flex items-center h-9 px-3 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 transition-colors">
-            Learn More
-            <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M5 12h14"></path>
-              <path d="M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
         </div>
       </div>
       </div>
@@ -49,10 +42,11 @@
 
   <!-- Hero -->
   <section class="relative overflow-hidden bg-[url(https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600)] bg-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30"></div>
     <div class="absolute -top-32 -left-32 w-[480px] h-[480px] bg-purple-500/10 blur-3xl rounded-full pointer-events-none"></div>
     <div class="absolute -bottom-48 -right-40 w-[520px] h-[520px] bg-emerald-500/10 blur-3xl rounded-full pointer-events-none"></div>
 
-    <div class="max-w-7xl md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-10 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
+    <div class="relative z-10 max-w-7xl md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-10 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
       <div class="lg:col-span-6 flex flex-col justify-center">
         <div class="inline-flex gap-2 w-max text-xs text-white/80 bg-white/5 border-white/10 border rounded-full mb-4 pt-1 pr-2.5 pb-1 pl-2.5 backdrop-blur-lg items-center">
           <span class="inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
@@ -64,22 +58,6 @@
         <p class="mt-4 text-base sm:text-lg text-white/70 leading-relaxed">
           Sentinel is your all-in-one productivity assistant. It makes it simple to manage your schedule, tasks and communication with smart technology that adapts to you.
         </p>
-
-        <div class="mt-6 flex flex-col sm:flex-row gap-3">
-          <a href="#" class="inline-flex items-center justify-center h-11 hover:bg-white/90 transition text-sm font-medium text-neutral-900 bg-white rounded-xl pr-4 pl-4 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]">
-            Try Sentinel
-            <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-            </svg>
-          </a>
-          <a href="#" class="inline-flex items-center justify-center h-11 hover:text-white hover:border-white/20 transition text-sm text-white/90 border-white/10 border rounded-xl pr-4 pl-4 shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] backdrop-blur-lg">
-            Explore Features
-            <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M3 3v18h18"></path>
-              <path d="M19 9l-6 6-4-4-4 4"></path>
-            </svg>
-          </a>
-        </div>
 
         <div class="mt-6 flex items-center gap-4 text-xs text-white/60">
           <div class="flex -space-x-2">
@@ -131,10 +109,6 @@
                       <p class="text-xs text-white/60">Zero conflicts this week</p>
                     </div>
                   </div>
-                  <button class="inline-flex items-center h-8 px-2 rounded-lg bg-white text-neutral-900 text-xs font-medium hover:bg-white/90 transition">
-                    View
-                    <svg width="16" height="16" viewBox="0 0 24 24" class="ml-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
-                  </button>
                 </div>
               </div>
             </div>
@@ -263,278 +237,4 @@
             </svg>
           </span>
           <div>
-            <h4 class="text-base font-semibold tracking-tight">Smart Scheduling</h4>
-            <p class="text-sm text-white/70">Keep your calendar clear and avoid double-booking with intelligent scheduling.</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 border border-white/10">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
-          </span>
-          <div>
-            <h4 class="text-base font-semibold tracking-tight">AI Reminders</h4>
-            <p class="text-sm text-white/70">Get helpful nudges before meetings, deadlines and follow-ups.</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 border border-white/10">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
-          </span>
-          <div>
-            <h4 class="text-base font-semibold tracking-tight">Unified Dashboard</h4>
-            <p class="text-sm text-white/70">See tasks, schedules and notifications in one place.</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 border border-white/10">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20v-6"></path></svg>
-          </span>
-          <div>
-            <h4 class="text-base font-semibold tracking-tight">Custom Routines</h4>
-            <p class="text-sm text-white/70">Shape the dashboard and notifications to fit your style.</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 border border-white/10">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          </span>
-          <div>
-            <h4 class="text-base font-semibold tracking-tight">AI Insights</h4>
-            <p class="text-sm text-white/70">Help you work smarter and faster with intelligent recommendations.</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <span class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 border border-white/10">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          </span>
-          <div>
-            <h4 class="text-base font-semibold tracking-tight">Central Hub</h4>
-            <p class="text-sm text-white/70">A central hub for tasks, events and contacts all in one place.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Insights with Chart -->
-  <section id="insights" class="max-w-7xl mx-auto px-6 mt-16">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-      <!-- Chart Card -->
-      <div class="lg:col-span-7 rounded-3xl border border-white/10 bg-white/[0.02] p-6 md:p-8">
-        <h3 class="text-xl font-semibold tracking-tight">Productivity trends</h3>
-        <p class="text-sm text-white/70 mb-4">Daily productivity metrics showing your improvement over time.</p>
-        <!-- Wrap canvas in a div to avoid growth bug -->
-        <div class="rounded-xl border border-white/10 bg-neutral-950/40 p-3">
-          <div class="h-56">
-            <canvas id="productivityChart" aria-label="Productivity trend" role="img" width="1233" height="448" style="display: block; box-sizing: border-box; height: 224px; width: 616px;"></canvas>
-          </div>
-        </div>
-        <div class="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div class="rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2">
-            <p class="text-xs text-white/60">This week</p>
-            <p class="text-base font-semibold tracking-tight">94%</p>
-          </div>
-          <div class="rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2">
-            <p class="text-xs text-white/60">Change</p>
-            <p class="text-base font-semibold tracking-tight text-emerald-400">+18%</p>
-          </div>
-          <div class="rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2">
-            <p class="text-xs text-white/60">Time saved</p>
-            <p class="text-base font-semibold tracking-tight">2.5h</p>
-          </div>
-          <div class="rounded-lg border border-white/10 bg-white/[0.02] px-3 py-2">
-            <p class="text-xs text-white/60">Tasks/day</p>
-            <p class="text-base font-semibold tracking-tight">12</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Insight bullets -->
-      <div class="lg:col-span-5 md:p-8 bg-[url(https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800)] bg-cover border-white/10 rounded-3xl pt-6 pr-6 pb-6 pl-6">
-        <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30 rounded-3xl"></div>
-        <div class="relative z-10">
-        <h3 class="text-xl font-semibold tracking-tight">Meet Sentinel</h3>
-        <p class="text-sm text-white/70">Your everyday companion for a smoother workflow</p>
-        <div class="mt-4 space-y-3">
-          <div class="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-3">
-            <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-white/5 border border-white/10">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
-            </span>
-            <div>
-              <p class="text-sm font-medium tracking-tight">Smart scheduling</p>
-              <p class="text-xs text-white/60">that connects with your calendar</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-3">
-            <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-white/5 border border-white/10">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
-            </span>
-            <div>
-              <p class="text-sm font-medium tracking-tight">Central hub</p>
-              <p class="text-xs text-white/60">for tasks, events and contacts</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-3">
-            <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-white/5 border border-white/10">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            </span>
-            <div>
-              <p class="text-sm font-medium tracking-tight">AI insights</p>
-              <p class="text-xs text-white/60">that help you work smarter and faster</p>
-            </div>
-          </div>
-          <a href="#" class="inline-flex items-center text-sm text-white/80 hover:text-white mt-1">
-            Start your journey
-            <svg width="16" height="16" viewBox="0 0 24 24" class="ml-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
-          </a>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Integrations -->
-  <section id="integrations" class="max-w-7xl mx-auto px-6 mt-16">
-    <div class="md:p-8 bg-[url(https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1600)] bg-cover border-white/10 rounded-3xl pt-6 pr-6 pb-6 pl-6">
-      <div class="absolute inset-0 bg-gradient-to-t from-neutral-950/90 via-neutral-950/60 to-neutral-950/30 rounded-3xl"></div>
-      <div class="relative z-10">
-      <!-- Testimonials -->
-      <div class="grid md:grid-cols-3 gap-6 items-center mb-16">
-        <div>
-          <p class="text-sm text-white/70">Start Your Journey</p>
-          <p class="text-lg font-semibold tracking-tight mt-1">"Discover how effortless organisation can feel"</p>
-          <div class="flex items-center gap-2 mt-3">
-            <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100" alt="User" class="h-8 w-8 rounded-full object-cover">
-            <div class="text-xs">
-              <p class="text-white/90">Sarah Chen</p>
-              <p class="text-white/50">Product Manager</p>
-            </div>
-          </div>
-        </div>
-        <div class="md:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6">
-          <!-- Integration logos -->
-          <div class="h-16 rounded-xl border border-white/10 bg-white/[0.02] flex items-center justify-center">
-            <span class="text-white/80 font-semibold tracking-tight">GOOGLE</span>
-          </div>
-          <div class="h-16 rounded-xl border border-white/10 bg-white/[0.02] flex items-center justify-center">
-            <span class="text-white/80 font-semibold tracking-tight">SLACK</span>
-          </div>
-          <div class="h-16 rounded-xl border border-white/10 bg-white/[0.02] flex items-center justify-center">
-            <span class="text-white/80 font-semibold tracking-tight">OUTLOOK</span>
-          </div>
-          <div class="h-16 rounded-xl border border-white/10 bg-white/[0.02] flex items-center justify-center">
-            <span class="text-white/80 font-semibold tracking-tight">TEAMS</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Integration description -->
-      <div class="text-center mb-8">
-        <h3 class="md:text-3xl text-2xl font-semibold tracking-tight">Integrations That Matter</h3>
-        <p class="text-white/70 mt-2 max-w-2xl mx-auto">Sentinel works with the tools you already use, including Google Calendar, Slack and Outlook, so everything comes together seamlessly.</p>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="max-w-7xl mx-auto px-6 mt-16 mb-20">
-    <div class="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-white/[0.02] p-6 md:p-10">
-      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-        <div>
-          <h3 class="text-2xl md:text-3xl font-semibold tracking-tight">Experience Sentinel today</h3>
-          <p class="text-sm text-white/70 mt-1">Discover a simpler, smoother way to get things done with your AI productivity assistant.</p>
-        </div>
-        <div class="flex gap-3">
-          <a href="#" class="inline-flex items-center h-11 px-4 rounded-xl bg-white text-neutral-900 text-sm font-medium hover:bg-white/90 transition">
-            Try Now
-            <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M7 10l5 5 5-5"></path><path d="M12 15V3"></path></svg>
-          </a>
-          <a href="#" class="inline-flex items-center h-11 px-4 rounded-xl border border-white/10 text-sm text-white/90 hover:text-white hover:border-white/20 transition">
-            Learn more
-            <svg width="18" height="18" viewBox="0 0 24 24" class="ml-1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H14l6 6v11.5A2.5 2.5 0 0 1 17.5 22h-11A2.5 2.5 0 0 1 4 19.5Z"></path><path d="M14 2v6h6"></path></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="mb-4">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="bg-white rounded-2xl shadow-lg border border-gray-200 py-8">
-        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 px-6">
-      <div class="flex items-center gap-2">
-        <img 
-          src="https://i.postimg.cc/kDfQs7MK/logo.png" 
-          alt="Watermelon AI Sentinel Logo" 
-          class="w-6 h-6 object-contain"
-        />
-        <span class="text-sm text-gray-600">© 2025 Watermelon AI Inc.</span>
-      </div>
-      <div class="flex items-center gap-4 text-sm text-gray-500">
-        <a href="#" class="hover:text-gray-900">Privacy</a>
-        <a href="#" class="hover:text-gray-900">Terms</a>
-        <a href="#" class="hover:text-gray-900">Support</a>
-        <a href="#" class="hover:text-gray-900">Contact</a>
-      </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts: Chart initialization -->
-  <script>
-    const ctx = document.getElementById('productivityChart');
-    if (ctx) {
-      const gradient = ctx.getContext('2d').createLinearGradient(0, 0, 0, 200);
-      gradient.addColorStop(0, 'rgba(16, 185, 129, 0.35)');
-      gradient.addColorStop(1, 'rgba(16, 185, 129, 0.00)');
-
-      new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],
-          datasets: [{
-            label: 'Productivity %',
-            data: [78, 82, 88, 91, 94, 89, 96],
-            tension: 0.35,
-            borderColor: 'rgb(16,185,129)',
-            backgroundColor: gradient,
-            fill: true,
-            pointRadius: 0,
-            borderWidth: 2
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          scales: {
-            x: {
-              grid: { display: false },
-              ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 11 } }
-            },
-            y: {
-              grid: { color: 'rgba(255,255,255,0.08)' },
-              ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 11 } }
-            }
-          },
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              backgroundColor: 'rgba(17, 17, 17, 0.95)',
-              borderColor: 'rgba(255,255,255,0.1)',
-              borderWidth: 1,
-              padding: 10,
-              titleColor: '#fff',
-              bodyColor: 'rgba(255,255,255,0.8)',
-              displayColors: false
-            }
-          }
-        }
-      });
-    }
-  </script>
-
-</body>
-</html>
+            <h4 class="text-base
