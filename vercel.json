@@ -1,7 +1,14 @@
 {
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/privacy.html", "destination": "/privacy.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+    { "source": "/privacy.html", "destination": "/privacy.html" }
+  ],
+  "routes": [
+    {
+      "src": "/privacy(.html)?",
+      "dest": "/privacy.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
