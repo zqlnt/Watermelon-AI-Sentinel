@@ -3,12 +3,17 @@
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/privacy.html", "destination": "/privacy.html" }
   ],
-  "routes": [
-    {
-      "src": "/privacy(.html)?",
-      "dest": "/privacy.html"
-    }
-  ],
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/privacy.html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ]
 }
