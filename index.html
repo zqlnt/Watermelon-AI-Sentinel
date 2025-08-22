@@ -550,37 +550,77 @@
 
               <!-- Interactive Slider -->
               <div class="px-6">
-                <p class="text-center text-sm text-white/60 mb-4">Drag the slider to see your savings</p>
-                <div class="relative mb-6">
-                  <input 
-                    type="range" 
-                    min="1" 
-                    max="20" 
-                    value="5" 
-                    id="hoursSlider" 
-                    class="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer slider-thumb"
-                  >
+  <!-- 📱 Sentinel Full Mobile Demo -->
+  <section class="relative overflow-hidden bg-neutral-950 mt-16">
+    <div class="absolute -top-32 -left-32 w-[480px] h-[480px] bg-emerald-500/10 blur-3xl rounded-full pointer-events-none"></div>
+    <div class="absolute -bottom-48 -right-40 w-[520px] h-[520px] bg-blue-500/10 blur-3xl rounded-full pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto py-16 px-6">
+      <div class="rounded-3xl border border-white/10 bg-white/[0.02] p-8 md:p-12 backdrop-blur-lg">
+        <div class="flex justify-center items-center">
+          <div class="iphone-frame hover:scale-105 transition-transform duration-300">
+            <div class="iphone-screen">
+              <h2 style="text-align:center; font-size:18px; margin:15px 0; color:white;">📱 Sentinel Demo</h2>
+              <p style="text-align:center; font-size:12px; color:#aaa;">Scroll down ⬇️</p>
+
+              <!-- 📩 Email Summaries -->
+              <div class="demo-block">
+                <h3>📩 Email Summaries</h3>
+                <div class="line-card">
+                  <p><b>From:</b> Alex Johnson</p>
+                  <p>Project proposal attached, please review...</p>
                 </div>
-                <div id="result" class="bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-4 text-center">
-                  <p class="text-white font-medium">Saving 5 hours per week = 20 hours per month ≈ 2.5 extra days off 🎉</p>
+                <div class="line-card">
+                  <p><b>From:</b> HR Team</p>
+                  <p>Reminder: Submit your weekly report...</p>
                 </div>
               </div>
 
-              <!-- Fake scrollable content -->
-              <div class="px-6 mt-8 text-center">
-                <p class="text-white/50 text-sm mb-4">Scroll for more features →</p>
-                <div class="h-64 bg-gradient-to-b from-white/5 to-white/[0.02] border border-white/10 rounded-xl flex items-center justify-center">
-                  <div class="text-center">
-                    <div class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-white/40">
-                        <path d="M12 2v20"></path>
-                        <path d="m19 15-7-7-7 7"></path>
-                      </svg>
-                    </div>
-                    <p class="text-white/40 text-sm">More features coming soon...</p>
-                  </div>
+              <!-- 📅 Calendar -->
+              <div class="demo-block">
+                <h3>📅 Calendar & Events</h3>
+                <div class="calendar">
+                  <div class="day active">21</div>
+                  <div class="day">22</div>
+                  <div class="day">23</div>
+                  <div class="day">24</div>
+                </div>
+                <ul class="line-list">
+                  <li>10:00 – Team Standup</li>
+                  <li>13:00 – Client Meeting</li>
+                  <li>17:00 – Gym Session</li>
+                </ul>
+              </div>
+
+              <!-- ✅ To Do -->
+              <div class="demo-block">
+                <h3>✅ To-Do List</h3>
+                <ul class="line-list">
+                  <li>Reply to client emails</li>
+                  <li>Prepare presentation</li>
+                  <li>Book flights for trip</li>
+                </ul>
+              </div>
+
+              <!-- 🔔 Notifications -->
+              <div class="demo-block">
+                <h3>🔔 Notifications</h3>
+                <div class="line-card">📧 New email from Marketing</div>
+                <div class="line-card">📅 Meeting starts in 30 mins</div>
+                <div class="line-card">✅ Task "Send invoice" completed</div>
+              </div>
+
+              <!-- 🤖 Sentinel Chat -->
+              <div class="demo-block">
+                <h3>🤖 Sentinel Bot</h3>
+                <div class="chat-box">
+                  <div class="chat ai">Sentinel: I found 3 free slots for tomorrow</div>
+                  <div class="chat user">You: Book 2pm with Sarah</div>
+                  <div class="chat ai">Sentinel: Done ✔️ Meeting scheduled</div>
                 </div>
               </div>
+
+              <p style="text-align:center; font-size:12px; color:#aaa; margin:20px 0;">⬇️ Keep scrolling for more ⬇️</p>
             </div>
           </div>
         </div>
