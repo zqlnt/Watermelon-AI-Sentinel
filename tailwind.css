@@ -11,6 +11,18 @@
     image-rendering: crisp-edges;
     image-rendering: pixelated;
   }
+  
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .pt-section-offset {
+    padding-top: calc(4rem + env(safe-area-inset-top) + 2rem);
+  }
 }
 
 :root {
